@@ -14,15 +14,8 @@
  */
 
 import scala.util._
-import scalaj.http._
 import ammonite.ops._
 import ammonite.ops.ImplicitWd._
-
-import $ivy.`org.wvlet::wvlet-log:1.2.3`
-import wvlet.log._
-
-import $ivy.`commons-codec:commons-codec:1.10`
-import org.apache.commons.codec.binary.{ Base64 => ApacheBase64 }
 
 import $file.src.variables, variables._
 import $file.src.pidhos, pidhos._
@@ -44,7 +37,7 @@ def main() = {
   NetUtils.checkInternet("google.com") match {
     case Some(i) => appLogger.showAndAppendToLogFile("info", i)
     case None => {
-      appLogger.showAndAppendToLogFile("error", "** ERROR: Check your internet conncetion.")
+      appLogger.showAndAppendToLogFile("error", "** ERROR: Check your internet connection.")
       System.exit(-1)
     }
   }
