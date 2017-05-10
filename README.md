@@ -4,7 +4,7 @@ Are you interested in using Decisyon App Composer (DAC) for Predix and looking f
 
 The script creates instances on Predix for the following services: UAA, Timeseries, Asset and DAC and it configures them to provide a ready-to-use environment for DAC on Predix (necessary authorities, scopes, create a UAA user, create UAA client_id, UAA groups etc.)
 
-For sure, it is a quick and dirty script but it should work. I know, it could be developed better. My intention was to setup something usable not perfect :-)
+For sure, it is a quick and dirty script but it should work. I know, it is not perfect. My intention was not to create a perfect piece  but a usable one.
 
 ## What is DAC?
 
