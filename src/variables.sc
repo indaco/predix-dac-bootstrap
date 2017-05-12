@@ -85,7 +85,7 @@ val UAA_USER_NAME = "app_user"
 val UAA_USER_EMAIL = "app_user@example.com"
 
 // The password of the user above
-val UAA_USER_PASSWORD = "app_user"
+val UAA_USER_PASSWORD = "secret"
 
 // The secret of the Admin client ID (Administrator Credentails)
 val UAA_ADMIN_SECRET = "secret"
