@@ -68,7 +68,7 @@ val SQL_INSTANCE_NAME = INSTANCE_PREPENDER + "-sql"
 val DAC_SERVICE_NAME = "decisyon-app-composer"
 
 // Name of the DAC plan (eg: Free) - default already set
-val DAC_SERVICE_PLAN = "Beta"
+val DAC_SERVICE_PLAN = "Tiered"
 
 // Name of your Asset instance - default already set
 val DAC_INSTANCE_NAME = INSTANCE_PREPENDER + "-dac"
