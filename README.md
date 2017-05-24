@@ -76,7 +76,7 @@ Refer to the Use the [Decisyon App Composer Starter Kit](http://decisyon.com/doc
 
 #### Known Issues
 
-- Pushing the sample_app to Predix could freeze the script at "starting app" step even though the sample_app has been correctly pushed to Predix. In case it happens, stop the execution `Ctrl+C`, check with `cf a` the sample_app is on Predix and restart the execution again.
+- [Pushing the sample_app to Predix could freeze the script at "starting app"](https://github.com/indaco/predix-dac-bootstrap/issues/1)
 
 --------------------------------------------------------------------------------
 
