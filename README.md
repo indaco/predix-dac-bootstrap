@@ -76,6 +76,12 @@ Refer to the Use the [Decisyon App Composer Starter Kit](http://decisyon.com/doc
 
 #### Known Issues
 
+- empty list
+
+--------------------------------------------------------------------------------
+
+#### Closed Issues
+
 - [Pushing the sample_app to Predix could freeze the script at "starting app"](https://github.com/indaco/predix-dac-bootstrap/issues/1)
 
 --------------------------------------------------------------------------------
